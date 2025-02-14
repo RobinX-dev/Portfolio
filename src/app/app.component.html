@@ -1,0 +1,37 @@
+<div>
+
+<div style="position: sticky;z-index: -1">
+  <app-vantaelement ></app-vantaelement>
+
+</div>
+<div class="row" >
+    <div
+      class="col-6"
+      style=" border-top-right-radius: 30px;"
+      appScrollVisibility
+    ></div>
+    <div class="col-6" style="padding: 0;" appScrollVisibility>
+      <div class="navigations">
+        <nav
+          class="d-flex justify-content-between"
+        >
+          <a href="#aboutme" class="text mx-2" appScrollVisibility>About Me</a>
+          <a href="#projects" class="text mx-2" appScrollVisibility>Projects</a>
+          <a href="#resume" class="text mx-2" appScrollVisibility>Resume</a>
+          <a href="#contact" class="text mx-2" appScrollVisibility>Contact</a>
+          <a href="#certificates" class="text mx-2" appScrollVisibility>
+            Certificates
+          </a>
+        </nav>
+      </div>
+    </div>
+    <app-homecomponent appScrollVisibility></app-homecomponent>
+    <app-about appScrollVisibility></app-about>
+    <app-projects appScrollVisibility></app-projects>
+    <app-resume appScrollVisibility></app-resume>
+    <app-certification appScrollVisibility></app-certification>
+    <app-contact appScrollVisibility></app-contact>
+  </div>
+  
+    
+</div>
